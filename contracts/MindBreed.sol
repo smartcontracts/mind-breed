@@ -1,6 +1,6 @@
 pragma solidity ^0.4.0;
 
-import "./BrainFuck.sol";
+import "./Brainfuck.sol";
 import "./KittyInterface.sol";
 
 
@@ -49,7 +49,7 @@ contract MindBreed {
      */
     function claimBounty() public {
         bytes memory input;
-        bytes32 result = keccak256(BrainFuck.execute(getProgram(msg.sender), input));
+        bytes32 result = keccak256(Brainfuck.execute(getProgram(msg.sender), input));
         bytes32 target = keccak256(abi.encodePacked(bytes2(0x6869))); // hey hey heyyy
         require(result == target, "Invalid result.");
 

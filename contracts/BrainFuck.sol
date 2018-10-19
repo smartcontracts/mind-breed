@@ -15,7 +15,7 @@
 
 pragma solidity 0.4.24;
 
-library BrainFuck {
+library Brainfuck {
 
     // Constants used throughout the algorithm
     uint constant BITSHIFT = 0x100000000000000000000000000000000000000000000000000000000000000;

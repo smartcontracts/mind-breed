@@ -4,7 +4,7 @@ MindBreed is a [CryptoKitties](https://www.cryptokitties.co/) powered [Brainfuck
 
 ## Introduction
 
-Brainfuck is an esoteric programming langauge with eight instructions (`>`, `<`, `+`, `-`, `.`, `,`, `[`, `]`). Using these eight instructions, you can run programs that produce output.
+Brainfuck is an esoteric programming language with eight instructions (`>`, `<`, `+`, `-`, `.`, `,`, `[`, `]`). Using these eight instructions, you can run programs that produce output.
 
 MindBreed is a special type of Brainfuck interpreter that doesn't understand text input - only the fur patterns on CryptoKitties. Instead of simply typing out instructions, you must sacrifice an innocent kitty to the EVM for each added instruction.
 
